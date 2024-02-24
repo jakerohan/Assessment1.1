@@ -1,7 +1,4 @@
 /* 
-
-<link rel="stylesheet" href="/css/style.css"> 
-
 　　　 　　／＞　　フ
 　　　 　　| 　_　 _ l
 　 　　 　／` ミ＿xノ
@@ -12,6 +9,8 @@
 　| (￣ヽ＿_ヽ_)__)
 　＼二つ
 
+<link rel="stylesheet" href="/css/style.css">
+
 */
 
 
@@ -20,9 +19,20 @@ body{
   color: rgb(131,148,150);
 }
 
-.link {
+a:link {
   color: rgb(211, 54,130);
 }
+
+a:hover {
+  color: rgb(203, 75, 22);
+}
+
+.subsection2, .subsection3 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(42,161,152);
+  }
+
 
 .header {
   background-color: rgb(7, 54, 66);
@@ -39,6 +49,14 @@ body{
 }
 
 
+
+/*
+
+.link {
+  color: rgb(211, 54,130);
+}
+
+*/
 
 /*
 --base-font-color: rgb(131,148,150);
