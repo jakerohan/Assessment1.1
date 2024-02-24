@@ -1,0 +1,90 @@
+/* 
+
+<link rel="stylesheet" href="/css/styles.css"> 
+
+　　　 　　／＞　　フ
+　　　 　　| 　_　 _ l
+　 　　 　／` ミ＿xノ
+　　 　 /　　　 　 |
+　　　 /　 ヽ　　 ﾉ
+　 　 │　　|　|　|
+　／￣|　　 |　|　|
+　| (￣ヽ＿_ヽ_)__)
+　＼二つ
+
+*/
+
+@media screen {  
+    body {  
+      color: black;  
+      ;background-color: yellow;  
+    }  
+  }
+  
+  @media print {  
+    body {  
+      color: black;  
+      background-color: white;  
+    }
+  }
+
+body {  
+    background: black url(/images/Monza10.jpg) repeat fixed top left; 
+    background-size: 100%; 
+  }
+  
+     h1, h2, p {
+        padding: 0;
+        margin: 0;
+        font: 1em/1.33 Verdana, sans-serif;
+     }
+  
+     h1, h2 {
+        color: red;
+     }
+  
+  h1 {font-size: 1.33em;}
+  h2 {font-size: 1.17em;}
+  
+  p {margin: 0 0 0.5em 0;}
+  
+  h1, h2 {margin: 0.83em 0 0.17em 0; }
+  
+  p:first-of-type {
+    font: 1.17em/1.33 Verdana, sans-serif;
+  }
+  
+  p {text-indent: 5em;}
+  
+  p.introduction {text-indent: 0em;}
+  p.recent {text-indent: 0em}
+  
+  div#films {
+    margin: 2em;
+    border: 2px groove #333;
+}
+
+#films {
+    margin: 2em;
+    border: 2px groove #333;
+
+}
+
+body div#films div.quote blockquote p {
+    color: yellow;
+    background-color: black;
+    border: 2px solid red;
+}
+
+  div#wrapper{
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: auto;
+  }
