@@ -36,6 +36,9 @@ a:hover {
 
 .header {
   background-color: rgb(7, 54, 66);
+  text-align: center;
+  font-size: 150%;
+  color: rgb(181,137,  0);
 }
 
 #header-content {
