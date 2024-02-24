@@ -11,28 +11,43 @@
 
 */
 
+:root{
+  --primary-color: hotpink; 
+  --secondary-color: rgb(190, 81, 18);
+  --bg-color: rgb(252, 221, 165);
+  --font-color: rgb(131,148,150);
+  --heading-color: aqua;
+}
+
+[data-theme="dark"]{
+  --primary-color: rgb(36, 50, 66);
+  --secondary-color: rgb(95, 111, 121);
+  --bg-color: rgb(63, 88, 75);
+  --font-color: rgb(171, 205, 216);
+  --heading-color: rgb(90, 53, 53);
+}
 
 body{ 
-  background-color: rgb(252, 221, 165);
-  color: rgb(131,148,150);
-  max-width: 800px;
+  background-color: var(--primary-color);
+  color: var(--font-color);
 }
 
 header {
-  background-color: rgb(255, 204, 204);
+  background-color: var(--secondary-color);
   text-align: center;
   font-size: 120%;
-  color: rgb(190, 81, 18);
+  color: var(--font-color);
 }
 
 p {
-  background-color: aqua;
+  background-color: var(--bg-color);
 }
 
 .birdbuttons{
-  background-color:rgb(170, 228, 37);
+  background-color:var(--heading-color);
   border-radius: 5px;
   font-weight: bold;
+  color:var(--font-color);
 }
 
 .buttons {
@@ -44,12 +59,15 @@ p {
   margin: auto;
 }
 
-footer {
+.darkmodebutton{
+  background-color: grey;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 
 /*
 
-
+<link rel="stylesheet" href="style.css">
 */
 

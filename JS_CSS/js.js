@@ -1,4 +1,5 @@
 
+
 function changeimage1(){
     var img = document.getElementById("image");
     img.src="http://www.outgrabe.net/bird00.jpg";
@@ -28,3 +29,45 @@ function changeimage5(){
     img.src="http://www.outgrabe.net/bird04.jpg";
     document.getElementById("caption").innerHTML ="Rose Robin by JJ Harrison (CC-by-SA)";
 }
+
+var dark = 0;
+
+function darkmode(){
+    var e = document.querySelector(":root");
+
+    if (dark === 0){
+    e.setAttribute("data-theme", "dark");
+    dark = 1
+    } else {
+        e.setAttribute("data-theme", "normal");
+        dark = 0;
+    }
+}
+
+var butt = 0;
+
+function changeText(){
+    document.getElementById('darkmodebutton');
+   
+    if (butt === 0){
+    darkmodebutton.textContent = 'Stupid Mode';
+    butt = 1;
+    } else {
+        darkmodebutton.textContent = 'Dark Mode';
+    butt = 0;
+    }
+}
+
+
+
+/*
+
+ if ( theme === no ) {
+        e.setAttribute("data-theme", "dark");
+        theme = yes;
+    } else {
+        e.setAttribute("data-theme", "normal");
+        theme = no;
+    }
+
+*/
