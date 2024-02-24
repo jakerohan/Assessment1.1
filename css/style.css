@@ -20,20 +20,6 @@ body{
   max-width: 800px;
 }
 
-a:link {
-  color: rgb(211, 54,130);
-}
-
-a:hover {
-  color: rgb(203, 75, 22);
-}
-
-.subsection2, .subsection3 {
-  border-style: solid;
-  border-width: 3px;
-  border-color: rgb(42,161,152);
-  }
-
 
 .header {
   background-color: rgb(7, 54, 66);
@@ -41,6 +27,17 @@ a:hover {
   font-size: 150%;
   color: rgb(181,137,  0);
 }
+
+
+a:link {
+  color: rgb(211, 54,130);
+}
+
+
+a:hover {
+  color: rgb(203, 75, 22);
+}
+
 
 .navlist {
   list-style-type: none;
@@ -52,13 +49,31 @@ a:hover {
   margin: auto;
 }
 
+
+.articleheading {
+  padding-top: 50px;
+}
+
+.maindiv {
+  display: flex
+}
+
+.subsection2, .subsection3 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(42,161,152);
+}
+
+
 .aside {
   color: rgb(133,153,0);
 }  
   
+
 .aside a:link{
   color:rgb(220, 50, 47);
 }
+
 
 .aside a:hover{
   color: rgb(38,139,210);
