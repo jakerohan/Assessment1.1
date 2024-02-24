@@ -59,10 +59,15 @@ p {
   margin: auto;
 }
 
+footer{
+  padding-top: 20px;
+}
 .darkmodebutton{
   background-color: grey;
   border-radius: 5px;
   font-weight: bold;
+  display: block;
+  margin: 0 auto;
 }
 
 
