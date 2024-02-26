@@ -1,0 +1,12 @@
+Hello,
+
+I have had to remove the .git folder from the submission.
+
+It was too big and was over the 10MB max allowable. 
+
+I communicated this over the weekend before the due date via email, but as it is now 15min before the due date I am just submitting without it. The screenshots of all git commits are still included.
+
+If this is an issue, I would be happy to submit the complete package including the .git folder via email, usb to campus, or if the allowable submission size was increased. whatever is easier for you guys.
+
+Thanks for reading! 
+Jake Rohan
